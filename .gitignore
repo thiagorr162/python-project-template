@@ -12,7 +12,6 @@
 # Python stuff
 *.ipynb_checkpoints/
 *.mypy_cache/
-poetry.lock
 
 # File extensions that Git should ignore
 
