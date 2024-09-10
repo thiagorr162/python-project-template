@@ -1,11 +1,12 @@
 # All your scripts should be in the src/ folder.
 
 
-import matplotlib.pyplot as plt
-import numpy as np
+from src.utils.tictoc import tic, toc
 
-x = np.linspace(-1, 1)
+tic()
+x = 5
 y = x**2
 
-plt.plot(x, y)
-plt.show()
+print(f"{x=}, {y=}")
+
+toc()
